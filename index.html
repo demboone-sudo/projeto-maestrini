@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestrini | Portfólio Front-End</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fontes do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <section class="hero">
+        <!--Vídeo de fundo de partículas/fumaçao/fogo-->
+        <video  id="bg-video" src="video_fogo.mp4" autoplay muted loop playsinline preload="auto"></video>
+
+        <!--Camada do Titulo Central-->
+        <h1 class="brand-title" id="hero-title">
+            <span style="--i: 1">M</span>
+            <span style="--i: 2">A</span>
+            <span style="--i: 3">E</span>
+            <span style="--i: 4">S</span>
+            <span style="--i: 5">T</span>
+            <span style="--i: 6">R</span>
+            <span style="--i: 7">I</span>
+            <span style="--i: 8">N</span>
+            <span style="--i: 9">I</span>
+</h1>  
+    <!-- BOTÃO DE ÁUDIO  -->
+    <button id="sound-toggle" class="sound-btn" aria-label="Alternar Som">
+      <span id="sound-icon">🔇</span>
+    </button>
+
+    
+    </section>
+
+    <!-- 2. ELEMENTO DE ÁUDIO  -->
+  <audio id="bg-audio" src="bg-music.mp3" loop preload="auto"></audio>
+
+    <!-- Créditos do recurso visual de fundo -->
+    <!-- Vídeo por Pixabay (Licença de uso livre / Royalty--free)-->
+     <footer class="credits">
+        <p>Vídeo de fundo por <a href="https://pixabay.com" target="_blank" rel="noopener noreferrer">Pixabay</a></p>
+     </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
